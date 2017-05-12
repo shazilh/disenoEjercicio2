@@ -67,6 +67,7 @@ parrafo1{
     font-family: 'Palanquin Dark';
     position:absolute;
     align-self: center;
+    padding-top: 60%;
 }
 .primerRow{
     width: 100%;
@@ -88,30 +89,32 @@ parrafo1{
     align-items: center;
 }
 .parrafo1Sec3{
-    width: 60%;
-    padding-left: 200px;
+    width: 70%;
+    padding-left: 100px;
     display: inline-flex;
     padding-top: 100px;
+    text-align: justify;
+    margin-right: 100px;
 }
 .parrafo2Sec3{
-    width: 90%;
+    width: 70%;
     display: inline-flex;
     padding-left: 100px;
     align-self: center;
     align-items: center;
+    text-align: justify;
 }
 .imagenesSec3-2{
     display: inline-flex;
     width: 300px;
     height: 300px;
-    align-self: center;
-    padding-left: 50px;
-    justify-content: center;
+    margin-left: 100px;
+    
 }
 .contenedorSec3{
     display: flex;
-    justify-content: flex-start;
-    width: 90%;
+    justify-content:center;
+    width: 100%;
 }
 .contenedorSec4{
     display: flex;
@@ -123,14 +126,16 @@ parrafo1{
 .contenedorLetrero{
     display: flex;
     width: 100%;
-    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
 .centrado{
     text-align: center;
 }
 .letrero{
     color:pink;
-    padding-left: 700px;
+
 }
 .contenedorVideo{
     display: flex;
@@ -142,15 +147,11 @@ parrafo1{
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 500px;
+    background-color: beige;
     align-items: center;
-    flex-direction: row;
 }
-.datos{
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    flex-direction: row;
-}
+
 .formulario{
     width: 20%;
     justify-content: space-between;
@@ -185,13 +186,36 @@ parrafo1{
 }
 .contenedorFooter{
     display: flex;
-    flex-direction: row;
     width: 100%;
     height: 100px;
     background-color:#8F000A;
+    justify-content: center;
     align-items: center;
-    align-self: center;
 }
-span{
-    padding-left: 750px;
+.contenedorVideo{
+    margin-bottom: 10%;
+}
+.contenedor4{
+    width: 100%;
+    height: 500px;
+}
+/* Comienza código para Breakpoints */
+@media  (max-width: 700px){
+    .contenedorSec3{
+      display:none;
+    }
+    .contenedorSec4{
+      display:none;
+    }
+    .contenedor4{
+        background-color: white;
+        color:black;
+    }
+    .contenedor5{
+        background-color:crimson;
+        color:white;
+    }
+    .letrero{
+     color:deeppink;
+    }
 }
