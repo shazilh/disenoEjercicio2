@@ -8,8 +8,17 @@ body{
 .tamanoFuente{
     font-size: 30px;
 }
+.tamanoFuente1{
+    font-size: 40px;
+}
+.tamanoFuente2{
+    font-size: 20px;
+}
 .colorFuente{
     color:white;
+}
+.colorFuenteNegra{
+    color:black;
 }
 nav{
     width: 100%;
@@ -44,17 +53,145 @@ nav ul li {
 }
 .contenedor2{
     width: 100%;
+    height:400px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    background-image: url(/curso-programacion.jpg);
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 parrafo1{
+    display: flex;
+    align-self: center;
     font-family: 'Palanquin Dark';
-    font-size: 25px;
     position:absolute;
     align-self: center;
 }
-.imagenSec1{
-    width: 300px;
+.primerRow{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
 }
-
+.imagenesSec3-1{
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.segundoRow{
+    width: 100%;
+    align-items: center;
+}
+.parrafo1Sec3{
+    width: 60%;
+    padding-left: 200px;
+    display: inline-flex;
+    padding-top: 100px;
+}
+.parrafo2Sec3{
+    width: 90%;
+    display: inline-flex;
+    padding-left: 100px;
+    align-self: center;
+    align-items: center;
+}
+.imagenesSec3-2{
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    padding-left: 50px;
+    justify-content: center;
+}
+.contenedorSec3{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+.contenedorSec4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+.contenedorLetrero{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.centrado{
+    text-align: center;
+}
+.letrero{
+    color:pink;
+    padding-left: 700px;
+}
+.contenedorVideo{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenedor5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+.datos{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    flex-direction: row;
+}
+.formulario{
+    width: 20%;
+    justify-content: space-between;
+}
+.primerEntrada{
+    margin: 20px;
+    width: 200px;
+}
+.segundaEntrada{
+    margin: 20px;
+    width: 200px;
+}
+.terceraEntrada{
+    margin: 20px;
+    width: 200px;
+}
+.boton{
+    margin: 20px;
+    width: 200px;
+    background-color:#8F000A;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 25px;   
+    margin-bottom: 50px;
+}
+.contenedorFooter{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color:#8F000A;
+    align-items: center;
+    align-self: center;
+}
+span{
+    padding-left: 750px;
+}
